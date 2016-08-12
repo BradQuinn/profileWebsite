@@ -1,0 +1,82 @@
+body {
+  background-image: url("../assets/spirals.png");
+}
+/*Header Css*/
+header {
+  background-color: transparent;
+}
+.tab {
+  min-width: 110px;
+  text-align: center;
+}
+.tab:hover {
+  background-color: rgba(0,70,100, 1);
+  text-decoration: none;
+}
+.tab:focus {
+  text-decoration: none;
+}
+.active {
+  background-color: rgba(0,70,100, 1);
+}
+/*/Header CSS*/
+
+/*Jumbotron CSS*/
+.jumbotron {
+  height: 600px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  position: relative;
+}
+.jumbotron h1{
+  font-weight: bolder;
+
+}
+.title{
+  margin-left: 150px;
+  padding-top: 150px;
+}
+.accent {
+  color: rgb(255,82,82);
+}
+.indented{
+  margin-left: 240px;
+}
+.horizontal-line {
+  border-top: 5px solid #ccc;
+  margin-top: 24px;
+}
+#accent {
+  border-color: rgb(255,82,82);
+}
+.vertical-line {
+  border-right: 5px solid black;
+  height: 100%;;
+  position: absolute;
+  margin-left: 95%;
+  z-index: 0;
+}
+#left {
+  margin-left: 93%;
+  border-color: rgb(96,125,139);
+}
+/*/Jumbotron CSS*/
+
+.projects{
+  z-index: 1;
+}
+.projects-title {
+  color:white;
+  font-size: 200px;
+  opacity: .5;
+  line-height: 200px;
+  font-family: fantasy;
+  text-align: right;
+  padding-right: 50px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.card {
+  border: 1px solid rgb(96,125,139);
+}
