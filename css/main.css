@@ -80,3 +80,7 @@ header {
 .card {
   border: 1px solid rgb(96,125,139);
 }
+
+#footer {
+  padding: 40px 16px;
+}
